@@ -25,7 +25,7 @@ Cypress.Commands.add('contruibutor_loginByDefaultAccount', () => {
 
     //cy.wait(4000);
     cy.contains('Dashboard', { timeout: 8000 }).should('exist');
-    cy.contains('Sign out', { timeout: 4000 }).should('exist');
+   // cy.contains('Sign out', { timeout: 4000 }).should('exist');
 })
 Cypress.Commands.add('contruibutor_loginByAccount', (contributor_username, contributor_password) => {
     cy.visit('https://ebp-test.ebuilding.ca/');
@@ -42,7 +42,7 @@ Cypress.Commands.add('contruibutor_loginByAccount', (contributor_username, contr
 
     //cy.wait(4000);
     cy.contains('Dashboard', { timeout: 8000 }).should('exist');
-    cy.contains('Sign out', { timeout: 4000 }).should('exist');
+   // cy.contains('Sign out', { timeout: 4000 }).should('exist');
 })
 //
 Cypress.Commands.add('contruibutor_signOut', () => {

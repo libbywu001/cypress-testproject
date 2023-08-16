@@ -25,4 +25,16 @@
 
 //嵌套命令：
 //cy.get(selector).within((element) => {...}): 在选择的DOM元素内执行嵌套命令。
+
+//cy.get()
+//cy.get('button') // 获取所有 <button> 元素
+//cy.get('.my-class') // 获取所有具有 class="my-class" 的元素
+//cy.get('#my-id') // 获取具有 id="my-id" 的元素
+//cy.get('[data-testid="my-test-id"]') // 获取具有 data-testid="my-test-id" 属性的元素
+//cy.get('ul > li') // 获取所有在 <ul> 下的 <li> 元素
+//cy.get('ul > li').eq(2) // 获取在 <ul> 下的第三个 <li> 元素（索引从 0 开始）
+//cy.contains('Submit') // 获取包含文本 "Submit" 的元素
+//cy.get('input:first-child') // 获取作为其父元素的第一个子元素的 <input> 元素
+//cy.get('input[type="text"].required') // 获取所有类型为 "text" 并具有 class "required" 的 <input> 元素
+
 //***************************
